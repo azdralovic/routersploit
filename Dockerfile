@@ -1,4 +1,4 @@
-FROM python:3.11-rc-slim
+FROM python:3.12-rc-slim
 
 COPY requirements.txt /tmp/requirements.txt
 RUN python -m pip install -r /tmp/requirements.txt
