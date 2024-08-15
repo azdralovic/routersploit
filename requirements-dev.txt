@@ -1,5 +1,5 @@
 future
-requests==2.21.0
+requests==2.32.2
 paramiko
 pysnmp==4.4.6
 pycryptodome
@@ -8,4 +8,6 @@ pytest-forked
 pytest-xdist
 flake8
 git+git://github.com/threat9/threat9-test-bed
-urllib3>=1.26.5 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
+idna>=3.7 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
